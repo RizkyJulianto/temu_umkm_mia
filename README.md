@@ -5,9 +5,15 @@ Website ini memudahkan pengguna menemukan informasi usaha melalui fitur pencaria
 
 ---
 
+## 📷 Demo Project
+<img width="1280" height="579" alt="Image" src="https://github.com/user-attachments/assets/200193aa-4105-4016-8b73-3d6e951d5b56" />
+
+---
+
 ## ⚙️ Tech Stack
 - 🧱 **HTML5** — Struktur utama halaman  
-- 🎨 **TailwindCSS** — Styling dan layout responsif  
+- 🎨 **TailwindCSS** — Styling dan layout responsif
+- ⚙️ **Javascript** — Interaktif Website
 - 🧩 **Figma** — Perancangan desain UI/UX  
   
 ---
@@ -39,7 +45,9 @@ Website ini memudahkan pengguna menemukan informasi usaha melalui fitur pencaria
 
 ✅ Selesai membuat landing page
 
-🔧 Proses berjalan **70 %** tinggal membuat halaman website
+✅ Selesai membuat halaman tentang kami
+
+🔧 Proses berjalan **72 %** tinggal membuat halaman website
 
 ---
 
