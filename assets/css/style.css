@@ -363,3 +363,12 @@
   transition: opacity 200ms linear, max-height 200ms linear;
   will-change: opacity, max-height;
 }
+
+/* footer section */
+footer .social-media a:hover {
+  color: var(--primary_orange);
+  background: rgba(250, 129, 47, 0.15);
+  transform: translateY(-3.5px);
+  border: 1.4px solid var(--primary_orange);
+  transition: 300ms linear;
+}
