@@ -1,3 +1,9 @@
+if (typeof AOS !== "undefined") {
+  AOS.init({
+    duration: 1000,
+  });
+}
+
 // sticku navbar
 let navbarNav = document.querySelector(".navbar");
 window.addEventListener("scroll", function () {
@@ -80,5 +86,39 @@ accordionButtons.forEach((btn) => {
       this.setAttribute("aria-expanded", "true");
       currentItem.classList.add("active-accordion");
     }
+  });
+});
+
+// gsap
+gsap.registerPlugin(SplitText);
+document.fonts.ready.then(() => {
+  gsap.set(".split-title", { opacity: 1 });
+  const titleSplit = SplitText.create(".split-title", {
+    type: "lines",
+    linesClass: "line++",
+  });
+
+  gsap.from(titleSplit.lines, {
+    yPercent: 100,
+    opacity: 0,
+    duration: 0.8,
+    stagger: 0.15,
+    ease: "expo.out",
+    delay: 1.0,
+  });
+  gsap.set(".split-gsap", { opacity: 1 });
+
+  const paragraphSplit = SplitText.create(".split-gsap", {
+    type: "lines",
+    linesClass: "line++",
+  });
+
+  gsap.from(paragraphSplit.lines, {
+    yPercent: 100,
+    opacity: 0,
+    duration: 0.8,
+    stagger: 0.08,
+    ease: "expo.out",
+    delay: 1.5,
   });
 });
