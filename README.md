@@ -1,4 +1,4 @@
-# 🌐 TemuUMKM — Temukan UMKM di Sekitar Universitas Amikom Purwokerto
+## 🌐 TemuUMKM — Temukan UMKM di Sekitar Universitas Amikom Purwokerto
 
 **TemuUMKM** adalah website yang dirancang untuk memperkenalkan berbagai **UMKM lokal di sekitar Universitas Amikom Purwokerto**.  
 Website ini memudahkan pengguna menemukan informasi usaha melalui fitur pencarian, kategori, dan peta lokasi interaktif berbasis Google Maps.
