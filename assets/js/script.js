@@ -4,7 +4,7 @@ if (typeof AOS !== "undefined") {
   });
 }
 
-//  sticku navbar
+// sticky navbar
 let navbarNav = document.querySelector(".navbar");
 window.addEventListener("scroll", function () {
   navbarNav.classList.toggle("sticky-nav", window.scrollY > 0);
