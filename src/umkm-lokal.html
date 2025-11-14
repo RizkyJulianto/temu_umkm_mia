@@ -62,8 +62,13 @@
           molestiae in tempora labore nesciunt totam eum unde sint deserunt.
         </p>
       </div>
-      <div class="categories my-4 flex gap-6 items-center" data-aos="fade-up">
-        <div class="list-category flex-[1_1_65%] flex gap-4 items-center">
+      <div
+        class="categories my-4 flex flex-col md:flex-row gap-6 items-center"
+        data-aos="fade-up"
+      >
+        <div
+          class="list-category flex-[1_1_100%] md:flex-[1_1_65%] flex gap-4 items-center"
+        >
           <span
             class="border-[1.5px] border-violet-700 px-3 py-1.5 text-[0.9rem] rounded-md bg-violet-700 text-white"
             ><i class="fas fa-layer-group"></i> Semua Kategori</span
@@ -81,9 +86,9 @@
             ><i class="fas fa-boxes-packing"></i> Produk Kreatif</span
           >
         </div>
-        <div class="searching-product flex-[1_1_35%]">
+        <div class="searching-product flex-[1_1_100%] md:flex-[1_1_35%]">
           <div
-            class="input-search flex items-center gap-[0.5rem] border-[1.5px] border-[#c4c4c4] rounded-[5px] px-3 py-2"
+            class="input-search w-full flex items-center gap-[0.5rem] border-[1.5px] border-[#c4c4c4] rounded-[5px] px-3 py-2"
           >
             <i class="fas fa-magnifying-glass bg-gradient-span p-[2px]"></i>
             <input
@@ -94,7 +99,10 @@
           </div>
         </div>
       </div>
-      <div class="row-data-umkm grid grid-cols-3 gap-5 mt-7" data-aos="fade-up">
+      <div
+        class="row-data-umkm grid grid-cols-1 md:grid-cols-3 gap-5 mt-7"
+        data-aos="fade-up"
+      >
         <div
           class="box-product border-[1.5px] border-[#ddd] shadow p-2.5 rounded-md"
         >
@@ -889,9 +897,13 @@
     </section>
 
     <footer class="w-full border-t-[#ddd] border-t-[1px]">
-      <div class="row-footer flex gap-8 p-[3rem_8%]">
-        <div class="c-left flex-[1_1_40%]">
-          <img class="h-[40px]" src="../images/logo/logo-temuUMKM.png" alt="" />
+      <div class="row-footer flex md:flex-row flex-col gap-8 p-[3rem_8%]">
+        <div class="c-left flex-[1_1_100%] md:flex-[1_1_40%]">
+          <img
+            class="h-[40px]"
+            src="../../images/logo/logo-temuUMKM.png"
+            alt=""
+          />
           <div class="desc mt-4 mb-6">
             <h4 class="font-medium">
               "Dari <span class="text-violet-700">Amikom</span>, untuk UMKM
@@ -930,8 +942,10 @@
             </a>
           </div>
         </div>
-        <div class="c-right flex-[1_1_60%] grid grid-cols-3">
-          <div class="d-box">
+        <div
+          class="c-right flex-[1_1_100%] md:flex-[1_1_60%] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3"
+        >
+          <div class="d-box md:mb-0 mb-8">
             <h4 class="font-medium">Permalinks</h4>
             <div class="w-[20%] mb-3 bg-gradient-span h-[2px]"></div>
             <div class="list flex flex-col gap-1">
@@ -962,7 +976,7 @@
               >
             </div>
           </div>
-          <div class="d-box">
+          <div class="d-box md:mb-0 mb-8">
             <h4 class="font-medium">Data UMKM</h4>
             <div class="w-[20%] mb-3 bg-gradient-span h-[2px]"></div>
             <div class="list flex flex-col gap-1">
@@ -984,7 +998,7 @@
               >
             </div>
           </div>
-          <div class="d-box">
+          <div class="d-box md:mb-0 mb-8">
             <h4 class="font-medium">Newsletter</h4>
             <div class="w-[20%] mb-3 bg-gradient-span h-[2px]"></div>
             <div class="list flex flex-col gap-1">
@@ -1010,9 +1024,11 @@
         </div>
       </div>
       <div
-        class="bottom-footer bg-gradient-span text-white py-4 text-[0.88rem] px-[8%] flex justify-between items-center"
+        class="bottom-footer bg-gradient-span text-white py-4 text-[0.88rem] px-[8%] flex justify-between md:flex-row flex-col items-center md:gap-1 gap-2"
       >
-        <p>&copy; 2025 TemuUMKM - Dikembangkan oleh Tim Baru Terbit</p>
+        <p class="md:text-left text-center">
+          &copy; 2025 TemuUMKM - Dikembangkan oleh Tim Baru Terbit
+        </p>
         <p><i class="fas fa-location-dot"></i> Universitas Amikom Purwokerto</p>
       </div>
     </footer>

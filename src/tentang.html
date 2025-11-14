@@ -63,8 +63,8 @@
           vero?
         </p>
       </div>
-      <div class="row-about mt-3 flex gap-8 items-center" data-aos="fade-up">
-        <div class="left-about flex-[1_1_40%]">
+      <div class="row-about mt-3 flex gap-8 items-center flex-col md:flex-row" data-aos="fade-up">
+        <div class="left-about flex-[1_1_100%] md:flex-[1_1_40%]">
           <div
             class="img-about flex justify-center items-center w-full rounded-md border-[1.5px] bg-[#fbfbfb] border-[#eee] hover:border-primary_orange p-6 hover:bg-[rgba(250,129,47,0.15)]"
           >
@@ -75,7 +75,7 @@
             />
           </div>
         </div>
-        <div class="right-about flex-[1_1_60%]">
+        <div class="right-about flex-[1_1_100%] md:flex-[1_1_60%]">
           <div class="d-about">
             <p class="text-[0.9rem] text-justify my-3">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -105,11 +105,11 @@
           vero?
         </p>
       </div>
-      <div class="row-visi-misi mt-8 flex gap-6">
+      <div class="row-visi-misi mt-8 flex md:flex-row flex-col gap-6">
         <div
           data-aos="fade-up"
           data-aos-duration="1250"
-          class="left-content flex-[1_1_35%]"
+          class="left-content flex-[1_1_100%] md:flex-[1_1_35%]"
         >
           <div class="bg-gradient-span p-6 rounded-md hover:-translate-y-[10px] transiton duration-[300ms] ease-in-out">
             <h4 class="font-medium text-[0.91rem] mb-2 text-white text-justify">
@@ -131,19 +131,19 @@
         <div
           data-aos="fade-up"
           data-aos-duration="1500"
-          class="right-content flex-[1_1_65%] flex flex-col gap-6"
+          class="right-content flex-[1_1_100%] md:flex-[1_1_65%] flex flex-col gap-6"
         >
           <div
-            class="box-visi-misi flex gap-6 border-[1.5px] border-primary_orange p-6 rounded-md hover:bg-[rgba(250,129,47,0.15)] hover:-translate-y-[10px] transiton duration-[300ms] ease-in-out"
+            class="box-visi-misi flex flex-col md:flex-row gap-6 border-[1.5px] border-primary_orange p-6 rounded-md hover:bg-[rgba(250,129,47,0.15)] hover:-translate-y-[10px] transiton duration-[300ms] ease-in-out"
           >
-            <div class="flex-[1_1_25%] w-full h-auto">
+            <div class="flex-[1_1_100%] md:flex-[1_1_25%] w-full h-auto">
               <img
                 class="w-full h-full object-center object-contain"
                 src="../images/about/vision.png"
                 alt=""
               />
             </div>
-            <div class="desc flex-[1_1_75%]">
+            <div class="desc flex-[1_1_100%] md:flex-[1_1_75%]">
               <h4 class="font-medium">Visi TemuUMKM</h4>
               <div class="w-[70px] mb-3 bg-gradient-span h-[2px]"></div>
               <p class="text-[0.88rem] text-justify">
@@ -157,9 +157,9 @@
             </div>
           </div>
           <div
-            class="box-visi-misi flex gap-6 border-[1.5px] border-primary_orange p-6 rounded-md hover:bg-[rgba(250,129,47,0.15)] hover:-translate-y-[10px] transiton duration-[300ms] ease-in-out"
+            class="box-visi-misi flex flex-col md:flex-row gap-6 border-[1.5px] border-primary_orange p-6 rounded-md hover:bg-[rgba(250,129,47,0.15)] hover:-translate-y-[10px] transiton duration-[300ms] ease-in-out"
           >
-            <div class="desc flex-[1_1_75%]">
+            <div class="desc flex-[1_1_100%] md:flex-[1_1_75%]">
               <h4 class="font-medium">Misi TemuUMKM</h4>
               <div class="w-[70px] mb-3.5 bg-gradient-span h-[2px]"></div>
               <div class="list flex flex-col gap-3">
@@ -201,7 +201,7 @@
                 </div>
               </div>
             </div>
-            <div class="flex-[1_1_25%] w-full h-auto">
+            <div class="flex-[1_1_100%] md:flex-[1_1_25%] w-full h-auto">
               <img
                 class="w-full h-full object-center object-contain"
                 src="../images/about/mission.png"
@@ -272,7 +272,7 @@
           vero?
         </p>
       </div>
-      <div class="row-team-work grid grid-cols-3 gap-6 mt-6">
+      <div class="row-team-work grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
         <div class="box-team flex flex-col justify-center items-center gap-3" data-aos="fade-up" data-aos-duration="1250">
           <img class="w-[65%] rounded-full border-[rgba(250,129,47,0.4)] border-[3px]" src="../images/team-work/rizky-julianto.jpeg" alt="">
            <h5 class="bg-gradient-span text-white text-[0.96rem] font-medium inline-block py-1 px-4 rounded-sm">
@@ -359,130 +359,64 @@
     </section>
 
     <footer class="w-full border-t-[#ddd] border-t-[1px]">
-      <div class="row-footer flex gap-8 p-[3rem_8%]">
-        <div class="c-left flex-[1_1_40%]">
-          <img class="h-[40px]" src="../images/logo/logo-temuUMKM.png" alt="" />
+      <div class="row-footer flex md:flex-row flex-col gap-8 p-[3rem_8%]">
+        <div class="c-left flex-[1_1_100%] md:flex-[1_1_40%]">
+          <img class="h-[40px]" src="../../images/logo/logo-temuUMKM.png"  alt="">
           <div class="desc mt-4 mb-6">
-            <h4 class="font-medium">
-              "Dari <span class="text-violet-700">Amikom</span>, untuk UMKM
-              Purwokerto"
-            </h4>
-            <p class="text-[0.9rem]">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
-              a cupiditate maiores vero pariatur distinctio ipsam illo saepe
-              corrupti repudiandae?
-            </p>
+            <h4 class="font-medium">"Dari <span class="text-violet-700">Amikom</span>, untuk UMKM Purwokerto"</h4>
+          <p class="text-[0.9rem]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt a cupiditate maiores vero pariatur distinctio ipsam illo saepe corrupti repudiandae?</p>
           </div>
           <div class="social-media flex gap-4">
-            <a
-              href=""
-              class="w-[40px] h-[40px] flex items-center justify-center  transition duration-[300ms] ease-in border-[1.4px] border-[#ddd] bg-[#f5f5f5] text-[#666] text-[1rem] rounded-sm"
-            >
+            <a href="" class="w-[40px] h-[40px] flex items-center justify-center transition duration-[300ms] ease-in border-[1.4px] border-[#ddd] bg-[#f5f5f5] text-[#666] text-[1rem] rounded-sm">
               <i class="fab fa-instagram"></i>
             </a>
-            <a
-              href=""
-              class="w-[40px] h-[40px] flex items-center justify-center  transition duration-[300ms] ease-in border-[1.4px] border-[#ddd] bg-[#f5f5f5] text-[#666] text-[1rem] rounded-sm"
-            >
+            <a href="" class="w-[40px] h-[40px] flex items-center justify-center transition duration-[300ms] ease-in border-[1.4px] border-[#ddd] bg-[#f5f5f5] text-[#666] text-[1rem] rounded-sm">
               <i class="fab fa-tiktok"></i>
             </a>
-            <a
-              href=""
-              class="w-[40px] h-[40px] flex items-center justify-center  transition duration-[300ms] ease-in border-[1.4px] border-[#ddd] bg-[#f5f5f5] text-[#666] text-[1rem] rounded-sm"
-            >
+            <a href="" class="w-[40px] h-[40px] flex items-center justify-center transition duration-[300ms] ease-in border-[1.4px] border-[#ddd] bg-[#f5f5f5] text-[#666] text-[1rem] rounded-sm">
               <i class="fab fa-youtube"></i>
             </a>
-            <a
-              href=""
-              class="w-[40px] h-[40px] flex items-center justify-center  transition duration-[300ms] ease-in border-[1.4px] border-[#ddd] bg-[#f5f5f5] text-[#666] text-[1rem] rounded-sm"
-            >
+            <a href="" class="w-[40px] h-[40px] flex items-center justify-center transition duration-[300ms] ease-in border-[1.4px] border-[#ddd] bg-[#f5f5f5] text-[#666] text-[1rem] rounded-sm">
               <i class="fab fa-linkedin"></i>
             </a>
           </div>
         </div>
-        <div class="c-right flex-[1_1_60%] grid grid-cols-3">
-          <div class="d-box">
+        <div class="c-right flex-[1_1_100%] md:flex-[1_1_60%] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+          <div class="d-box md:mb-0 mb-8">
             <h4 class="font-medium">Permalinks</h4>
             <div class="w-[20%] mb-3 bg-gradient-span h-[2px]"></div>
             <div class="list flex flex-col gap-1">
-              <a
-                href="./"
-                class="text-[0.92rem] transition duration-[300ms] ease-in hover:translate-x-1 active-menu"
-                >Beranda</a
-              >
-              <a
-                href="./src/tentang.html"
-                class="text-[0.92rem] transition duration-[300ms] ease-in hover:translate-x-1"
-                >Tentang Kami</a
-              >
-              <a
-                href="./src/umkm-lokal.html"
-                class="text-[0.92rem] transition duration-[300ms] ease-in hover:translate-x-1"
-                >Data UMKM Lokal</a
-              >
-              <a
-                href="./src/testimoni.html"
-                class="text-[0.92rem] transition duration-[300ms] ease-in hover:translate-x-1"
-                >Testimoni</a
-              >
-              <a
-                href="./src/blog.html"
-                class="text-[0.92rem] transition duration-[300ms] ease-in hover:translate-x-1"
-                >Blog</a
-              >
+              <a href="./" class="text-[0.92rem] transition duration-[300ms] ease-in hover:translate-x-1 active-menu">Beranda</a>
+              <a href="./src/tentang.html" class="text-[0.92rem] transition duration-[300ms] ease-in hover:translate-x-1">Tentang Kami</a>
+              <a href="./src/umkm-lokal.html" class="text-[0.92rem] transition duration-[300ms] ease-in hover:translate-x-1">Data UMKM Lokal</a>
+              <a href="./src/testimoni.html" class="text-[0.92rem] transition duration-[300ms] ease-in hover:translate-x-1">Testimoni</a>
+              <a href="./src/blog.html" class="text-[0.92rem] transition duration-[300ms] ease-in hover:translate-x-1">Blog</a>
             </div>
           </div>
-          <div class="d-box">
+          <div class="d-box md:mb-0 mb-8">
             <h4 class="font-medium">Data UMKM</h4>
             <div class="w-[20%] mb-3 bg-gradient-span h-[2px]"></div>
             <div class="list flex flex-col gap-1">
-              <a
-                href=""
-                class="text-[0.92rem] transition duration-[300ms] ease-in hover:translate-x-1"
-                >Makanan & Minuman</a
-              >
-              <a
-                href=""
-                class="text-[0.92rem] transition duration-[300ms] ease-in hover:translate-x-1"
-                >Jasa & Layanan</a
-              >
-              <a
-                href=""
-                class="text-[0.92rem] transition duration-[300ms] ease-in hover:translate-x-1"
-              >
-                Produk Kreatif</a
-              >
+              <a href="" class="text-[0.92rem] transition duration-[300ms] ease-in hover:translate-x-1">Makanan & Minuman</a>
+              <a href="" class="text-[0.92rem] transition duration-[300ms] ease-in hover:translate-x-1">Jasa & Layanan</a>
+              <a href="" class="text-[0.92rem] transition duration-[300ms] ease-in hover:translate-x-1"> Produk Kreatif</a>
             </div>
           </div>
-          <div class="d-box">
+          <div class="d-box md:mb-0 mb-8">
             <h4 class="font-medium">Newsletter</h4>
             <div class="w-[20%] mb-3 bg-gradient-span h-[2px]"></div>
             <div class="list flex flex-col gap-1">
-              <span class="mb-3 text-[0.9rem]"
-                >Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Quibusdam, voluptate.</span
-              >
+              <span class="mb-3 text-[0.9rem]">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam, voluptate.</span>
               <div class="input flex gap-1">
-                <input
-                  type="text"
-                  class="bg-[#f5f5f5] outline-none border-[1.5px] border-[#ddd] focus:border-violet-700 px-3 py-2 rounded-md text-[0.9rem] w-full"
-                  placeholder="Masukkan email anda"
-                />
-                <button
-                  type="button"
-                  class="bg-violet-700 text-white rounded-md py-2 px-3 text-[0.9rem]"
-                >
-                  <i class="fas fa-share"></i>
-                </button>
+                <input type="text" class="bg-[#f5f5f5] outline-none border-[1.5px] border-[#ddd] focus:border-violet-700 px-3 py-2 rounded-md text-[0.9rem] w-full" placeholder="Masukkan email anda">
+                <button type="button" class="bg-violet-700 text-white rounded-md py-2 px-3 text-[0.9rem]"><i class="fas fa-share"></i></button>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div
-        class="bottom-footer bg-gradient-span text-white py-4 text-[0.88rem] px-[8%] flex justify-between items-center"
-      >
-        <p>&copy; 2025 TemuUMKM - Dikembangkan oleh Tim Baru Terbit</p>
+      <div class="bottom-footer bg-gradient-span text-white py-4 text-[0.88rem] px-[8%] flex justify-between md:flex-row flex-col items-center md:gap-1 gap-2">
+        <p class="md:text-left text-center">&copy; 2025 TemuUMKM - Dikembangkan oleh Tim Baru Terbit</p>
         <p><i class="fas fa-location-dot"></i> Universitas Amikom Purwokerto</p>
       </div>
     </footer>

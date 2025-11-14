@@ -227,15 +227,16 @@ body:not(.page-index) .nav-list {
     position: absolute;
     top: 2rem;
     right: 1.5rem;
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     border-radius: 4px;
     color: var(--primary_yellow);
-    padding: 0.2rem;
+    padding: 0.3rem;
+    width: 20px;
     border: 1.3px solid var(--primary_yellow);
   }
 
   .navbar .nav-left .nav-menu .content .head #closeNav {
-    background: rgba(0, 150, 136, 0.1);
+    background: rgba(250, 129, 47, 0.2);
   }
 
   .navbar .nav-left .nav-menu .content a {
@@ -249,9 +250,10 @@ body:not(.page-index) .nav-list {
 
   .navbar .nav-right #hamburger {
     display: inline-block;
-    font-size: 1.2rem;
+    font-size: 0.85rem;
     border-radius: 4px;
-    padding: 0.43rem;
+    padding: 0.5rem;
+    width: 40px;
     color: var(--primary_yellow);
     border: 1.5px solid var(--primary_yellow);
   }

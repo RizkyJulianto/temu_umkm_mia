@@ -49,13 +49,13 @@
       class="hero w-full h-dvh text-white flex justify-center items-center"
     >
       <main
-        class="content flex justify-center items-center flex-col max-sm:max-w-full max-sm:w-full max-md:w-[60%] max-lg:w-[45%] lg:w-[45%]"
+        class="content flex justify-center items-center flex-col mx-[8%] md:mx-0 max-sm:max-w-full max-sm:w-full max-md:w-[60%] max-lg:w-[45%] lg:w-[45%]"
       >
         <span data-aos="fade-up" data-aos-duration="1500" data-aos-anchor-placement="bottom-bottom" class="badge-span"
           ><i class="fas fa-star"></i> #BersamaTemuUMKM</span
         >
         <h1
-          class="split-title text-4xl font-bold flex flex-col my-4 w-full max-w-full justify-center items-center"
+          class="split-title text-xl md:text-4xl font-bold flex flex-col my-4 w-full max-w-full justify-center items-center"
         >
           <span>Temukan UMKM Lokal di Sekitar</span>
           <span
@@ -89,7 +89,7 @@
           UMKM Purwokerto"
         </p>
       </div>
-      <div class="row-about mt-6 flex gap-6" data-aos="fade-up">
+      <div class="row-about mt-6 flex gap-6 flex-col md:flex-row" data-aos="fade-up">
         <div class="left-about flex-1">
           <div class="img-about w-full">
             <img
@@ -130,7 +130,7 @@
         </div>
       </div>
       <div class="about-bottom mt-10" data-aos="fade-up">
-        <div class="row-about-c flex justify-center items-center gap-7">
+        <div class="row-about-c flex justify-center items-center gap-7 lg:flex-row flex-col">
           <div
             class="box max-sm:max-w-full max-sm:w-full max-md:w-[calc(50%-1.25rem)] max-lg:w-[calc(50%-1.25rem)] lg:w-[calc(25%-1.25rem)] flex items-center gap-3 py-2 px-3 rounded-sm border-[1.5px] border-[#e7e7e7] hover:bg-[#f1f1f1]"
           >
@@ -198,8 +198,8 @@
           molestiae in tempora labore nesciunt totam eum unde sint deserunt.
         </p>
       </div>
-      <div class="categories my-4 flex gap-6 items-center" data-aos="fade-up">
-        <div class="list-category flex-[1_1_65%] flex gap-4 items-center">
+      <div class="categories my-4 flex gap-6 items-center flex-col md:flex-row" data-aos="fade-up">
+        <div class="list-category flex-[1_1_100%] md:flex-[1_1_65%] flex gap-4 items-center">
           <span
             class="border-[1.5px] border-violet-700 px-3 py-1.5 text-[0.9rem] rounded-md bg-violet-700 text-white"
             ><i class="fas fa-layer-group"></i> Semua Kategori</span
@@ -217,7 +217,7 @@
             ><i class="fas fa-boxes-packing"></i> Produk Kreatif</span
           >
         </div>
-        <div class="searching-product flex-[1_1_35%]">
+        <div class="searching-product flex-[1_1_100%] md:flex-[1_1_35%]">
           <div
             class="input-search flex items-center gap-[0.5rem] border-[1.5px] border-[#c4c4c4] rounded-[5px] px-3 py-2"
           >
@@ -230,7 +230,7 @@
           </div>
         </div>
       </div>
-      <div class="row-data-umkm grid grid-cols-3 gap-5 mt-7" data-aos="fade-up" >
+      <div class="row-data-umkm grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-7" data-aos="fade-up" >
         <div
           class="box-product border-[1.5px] border-[#ddd] shadow p-2.5 rounded-md"
         >
@@ -913,12 +913,12 @@
           molestiae in tempora labore nesciunt totam eum unde sint deserunt.
         </p>
       </div>
-      <div class="row-news-umkm flex gap-6 mt-7" data-aos="fade-up">
-        <div class="left-content flex-[1_1_40%]">
+      <div class="row-news-umkm flex gap-6 mt-7 md:flex-row flex-col" data-aos="fade-up">
+        <div class="left-content flex-[1_1_100%] md:flex-[1_1_40%]">
           <div
             class="box-news-l rounded-md border-[#e4e4e4] shadow border-[1.5px]"
           >
-            <div class="img-d w-full h-[250px] overflow-hidden">
+            <div class="img-d w-full h-[225px] md:h-[250px] overflow-hidden">
               <img
                 src="./images/about.jpg"
                 class="w-full rounded-tl-md h-full object-center object-cover rounded-tr-md transition duration-[300ms]  ease-in"
@@ -963,13 +963,13 @@
             </div>
           </div>
         </div>
-        <div class="right-content flex-[1_1_60%] flex flex-col gap-6">
+        <div class="right-content flex-[1_1_100%] md:flex-[1_1_60%] flex flex-col gap-6">
           <div
-            class="box-news-r flex gap-[0.6rem] rounded-md border-[#e4e4e4] shadow border-[1.5px]"
+            class="box-news-r flex  md:flex-row flex-col gap-[0.6rem] rounded-md border-[#e4e4e4] shadow border-[1.5px]"
           >
             <div class="img-d flex-[1_1_35%] overflow-hidden">
               <img
-                class="w-full object-cover object-center h-full rounded-tl-md rounded-bl-md transition duration-[300ms] ease-in"
+                class="w-full object-cover object-center md:h-full h-[225px] rounded-tl-md rounded-bl-md transition duration-[300ms] ease-in"
                 src="./images/about.jpg"
                 alt=""
               />
@@ -1011,11 +1011,11 @@
             </div>
           </div>
           <div
-            class="box-news-r flex gap-[0.6rem] rounded-md border-[#e4e4e4] shadow border-[1.5px]"
+            class="box-news-r flex  md:flex-row flex-col gap-[0.6rem] rounded-md border-[#e4e4e4] shadow border-[1.5px]"
           >
             <div class="img-d flex-[1_1_35%] overflow-hidden">
               <img
-                class="w-full object-cover object-center h-full rounded-tl-md rounded-bl-md transition duration-[300ms] ease-in"
+                class="w-full object-cover object-center md:h-full h-[225px] rounded-tl-md rounded-bl-md transition duration-[300ms] ease-in"
                 src="./images/about.jpg"
                 alt=""
               />
@@ -1087,7 +1087,7 @@
         </p>
       </div>
       <div class="row-faq mt-6" data-aos="fade-up">
-        <div class="accordion-row grid grid-cols-2 gap-4">
+        <div class="accordion-row grid grid-cols-1 md:grid-cols-2 gap-4">
             <div class="accordion-group">
               <div class="accordion-item border-[1.5px] border-[#dedede] w-full rounded-md p-4 min-h-auto hover:bg-[#fafafa]" data-expanded="false">
                 <button class="flex text-left items-center w-full text-[#333] text-[0.9rem] cursor-pointer gap-[0.8rem] font-medium border-none bg-none outline-no" id="accordion-button-1" aria-expanded="false">
@@ -1214,8 +1214,8 @@
     </section>
 
     <footer class="w-full border-t-[#ddd] border-t-[1px]">
-      <div class="row-footer flex gap-8 p-[3rem_8%]">
-        <div class="c-left flex-[1_1_40%]">
+      <div class="row-footer flex md:flex-row flex-col gap-8 p-[3rem_8%]">
+        <div class="c-left flex-[1_1_100%] md:flex-[1_1_40%]">
           <img class="h-[40px]" src="./images/logo/logo-temuUMKM.png"  alt="">
           <div class="desc mt-4 mb-6">
             <h4 class="font-medium">"Dari <span class="text-violet-700">Amikom</span>, untuk UMKM Purwokerto"</h4>
@@ -1236,8 +1236,8 @@
             </a>
           </div>
         </div>
-        <div class="c-right flex-[1_1_60%] grid grid-cols-3">
-          <div class="d-box">
+        <div class="c-right flex-[1_1_100%] md:flex-[1_1_60%] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+          <div class="d-box md:mb-0 mb-8">
             <h4 class="font-medium">Permalinks</h4>
             <div class="w-[20%] mb-3 bg-gradient-span h-[2px]"></div>
             <div class="list flex flex-col gap-1">
@@ -1248,7 +1248,7 @@
               <a href="./src/blog.html" class="text-[0.92rem] transition duration-[300ms] ease-in hover:translate-x-1">Blog</a>
             </div>
           </div>
-          <div class="d-box">
+          <div class="d-box md:mb-0 mb-8">
             <h4 class="font-medium">Data UMKM</h4>
             <div class="w-[20%] mb-3 bg-gradient-span h-[2px]"></div>
             <div class="list flex flex-col gap-1">
@@ -1257,7 +1257,7 @@
               <a href="" class="text-[0.92rem] transition duration-[300ms] ease-in hover:translate-x-1"> Produk Kreatif</a>
             </div>
           </div>
-          <div class="d-box">
+          <div class="d-box md:mb-0 mb-8">
             <h4 class="font-medium">Newsletter</h4>
             <div class="w-[20%] mb-3 bg-gradient-span h-[2px]"></div>
             <div class="list flex flex-col gap-1">
@@ -1270,8 +1270,8 @@
           </div>
         </div>
       </div>
-      <div class="bottom-footer bg-gradient-span text-white py-4 text-[0.88rem] px-[8%] flex justify-between items-center">
-        <p>&copy; 2025 TemuUMKM - Dikembangkan oleh Tim Baru Terbit</p>
+      <div class="bottom-footer bg-gradient-span text-white py-4 text-[0.88rem] px-[8%] flex justify-between md:flex-row flex-col items-center md:gap-1 gap-2">
+        <p class="md:text-left text-center">&copy; 2025 TemuUMKM - Dikembangkan oleh Tim Baru Terbit</p>
         <p><i class="fas fa-location-dot"></i> Universitas Amikom Purwokerto</p>
       </div>
     </footer>
