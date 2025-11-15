@@ -10,6 +10,10 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link
       rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
       integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
       crossorigin="anonymous"
@@ -36,10 +40,10 @@
               />
             </div>
             <a href="../../" class="nav-list">Beranda</a>
-            <a href="./tentang.html" class="nav-list active-menu"
-              >Tentang Kami</a
+            <a href="./tentang.html" class="nav-list">Tentang Kami</a>
+            <a href="./umkm-lokal.html" class="nav-list active-menu"
+              >Data UMKM Lokal</a
             >
-            <a href="./umkm-lokal.html" class="nav-list">Data UMKM Lokal</a>
             <a href="./testimoni.html" class="nav-list">Testimoni</a>
             <a href="./blog.html" class="nav-list">Blog</a>
             <a class="btn-started" href="../../auth/sign-in.html"
@@ -54,12 +58,457 @@
         <a class="btn-started" href="../../auth/sign-in.html">Get Started</a>
       </div>
     </nav>
+
+    <section class="data-umkm p-[7rem_8%_4rem]">
+      <div class="header-section" data-aos="fade-up">
+        <span class="badge-span">Mengenal Lebih Dekat UMKM</span>
+        <h3 class="font-semibold text-xl mt-3 mb-0.5">
+          Cerita Usaha Lokal disekitar Kampus Amikom Purwokerto
+        </h3>
+        <p class="text-[0.93rem]">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia omnis
+          molestiae in tempora labore nesciunt totam eum unde sint deserunt.
+        </p>
+      </div>
+      <div class="doc-umkm flex gap-8 mt-8">
+        <div class="swiper documentPhotoUMKM flex-[1_1_60%]" data-aos="fade-up">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide w-full h-[300px]">
+              <img
+                class="w-full h-full object-cover rounded-md object-center"
+                src="../../images/about.jpg"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide w-full h-[300px]">
+              <img
+                class="w-full h-full object-cover rounded-md object-center"
+                src="../../images/about.jpg"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide w-full h-[300px]">
+              <img
+                class="w-full h-full object-cover rounded-md object-center"
+                src="../../images/about.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <div class="maps flex-[1_1_40%]" data-aos="fade-up">
+          <h3 class="badge-umkm-loc mb-5">
+            <i class="fas fa-location-dot"></i> Lokasi UMKM
+          </h3>
+          <iframe
+            class="w-full h-[300px] rounded-md"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63303.31316544078!2d109.24737633865725!3d-7.41455843830708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e655949fc827027%3A0x4027a76e352e420!2sKec.%20Kembaran%2C%20Kabupaten%20Banyumas%2C%20Jawa%20Tengah!5e0!3m2!1sid!2sid!4v1763127543091!5m2!1sid!2sid"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+      <div class="desc-umkm" data-aos="fade-up" data-aos-duration="1250">
+        <div class="first flex gap-4 mt-8 mb-2.5">
+          <span
+            class="px-2 pt-[0.3rem] pb-[0.0.5rem] text-[0.8rem] rounded-md bg-[rgba(112,8,231,0.15)] text-violet-700"
+            ><i class="fas fa-utensils"></i> Makanan & Minuman</span
+          >
+          <span
+            class="rating-p px-2 py-1 text-[0.8rem] rounded-md border-[1.5px] border-[#e2e2e2] text-[#666]"
+          >
+            4.9 <i class="fas fa-star text-yellow-400"></i
+          ></span>
+        </div>
+        <h2 class="text-xl font-semibold">
+          Lorem ipsum dolor sit amet consectetur.
+        </h2>
+        <div class="text-[0.85rem] text-[#555] flex gap-2 mt-2.5 mb-3">
+          <i class="fas fa-location-dot text-[0.8rem] mt-0.5"></i>
+          <p class="">
+            Jl. Letjend Pol. Soemarto No.127, Watumas, Purwanegara, Kec.
+            Purwokerto Utara, Kabupaten Banyumas, Jawa Tengah 53127
+          </p>
+        </div>
+        <div class="information mt-1 flex gap-2.5">
+          <span
+            class="px-3 py-[0.23rem] text-[0.8rem] rounded-sm bg-gradient-span text-white"
+            ><i class="fas fa-building-columns"></i> 200 Meter dari Universitas
+            Amikom Purwokerto</span
+          >
+          <span
+            class="px-3 py-[0.23rem] text-[0.8rem] rounded-sm bg-gradient-span text-white"
+            ><i class="fas fa-phone"></i> 0895-1737-1871</span
+          >
+          <span
+            class="px-3 py-[0.23rem] text-[0.8rem] rounded-sm bg-gradient-span text-white"
+            ><i class="fas fa-clock"></i> Buka 10:00 - 20:00</span
+          >
+        </div>
+        <div
+          class="text-[0.85rem] text-justify mt-5 pt-3 border-t-[2px] border-[#eee]"
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+          ad sed illum corporis architecto labore in ducimus pariatur voluptatum
+          molestiae vitae reiciendis deserunt, unde aliquam quasi quidem quaerat
+          consequuntur, mollitia velit animi dolore suscipit! Labore beatae hic
+          asperiores possimus dolores neque error aliquid, quaerat accusamus
+          quos deserunt nemo quia rerum libero nostrum quasi dicta eaque numquam
+          tempore ducimus, iure eveniet unde ea sequi. Libero fugiat quia enim
+          facere eos molestiae, placeat rerum sit suscipit id voluptates harum
+          natus itaque ab error tempora commodi animi consectetur quisquam
+          doloremque officiis optio, accusantium atque? Explicabo ab
+          voluptatibus esse illum, officia quo amet unde.
+        </div>
+      </div>
+    </section>
+
+    <section class="list-product-umkm p-[1rem_8%_4rem]">
+      <div class="header-section" data-aos="fade-up" data-aos-duration="1250">
+        <span class="badge-span">Daftar Produk UMKM</span>
+        <h3 class="font-semibold text-xl mt-3 mb-0.5">
+          Cerita Usaha Lokal disekitar Kampus Amikom Purwokerto
+        </h3>
+        <p class="text-[0.93rem]">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia omnis
+          molestiae in tempora labore nesciunt totam eum unde sint deserunt.
+        </p>
+      </div>
+      <div class="row-list-umkm mt-6 flex gap-6" data-aos="fade-up" data-aos-duration="1500">
+        <div class="flex-1 left-con cursor-pointer p-6 border-[1.5px] rounded-md border-primary_orange bg-[rgba(250,129,47,0.15)]">
+          <div class="list mb-4">
+            <div class="top flex items-center justify-between mb-1.5">
+              <h4 class="name font-medium text-[0.95rem]">
+                Lorem, ipsum dolor.
+              </h4>
+              <h5 class="price text-[0.93rem] font-medium">Rp. 10.000</h5>
+            </div>
+            <p class="text-[0.85rem] text-[#333]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, rem!</p>
+          </div>
+          <div class="list mb-4">
+            <div class="top flex items-center justify-between mb-1.5">
+              <h4 class="name font-medium text-[0.95rem]">
+                Lorem, ipsum dolor.
+              </h4>
+              <h5 class="price text-[0.93rem] font-medium">Rp. 10.000</h5>
+            </div>
+            <p class="text-[0.85rem] text-[#333]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, rem!</p>
+          </div>
+          <div class="list mb-4">
+            <div class="top flex items-center justify-between mb-1.5">
+              <h4 class="name font-medium text-[0.95rem]">
+                Lorem, ipsum dolor.
+              </h4>
+              <h5 class="price text-[0.93rem] font-medium">Rp. 10.000</h5>
+            </div>
+            <p class="text-[0.85rem] text-[#333]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, rem!</p>
+          </div>
+          <div class="list mb-4">
+            <div class="top flex items-center justify-between mb-1.5">
+              <h4 class="name font-medium text-[0.95rem]">
+                Lorem, ipsum dolor.
+              </h4>
+              <h5 class="price text-[0.93rem] font-medium">Rp. 10.000</h5>
+            </div>
+            <p class="text-[0.85rem] text-[#333]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, rem!</p>
+          </div>
+          <div class="list mb-4">
+            <div class="top flex items-center justify-between mb-1.5">
+              <h4 class="name font-medium text-[0.95rem]">
+                Lorem, ipsum dolor.
+              </h4>
+              <h5 class="price text-[0.93rem] font-medium">Rp. 10.000</h5>
+            </div>
+            <p class="text-[0.85rem] text-[#333]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, rem!</p>
+          </div>
+          <div class="list">
+            <div class="top flex items-center justify-between mb-1.5">
+              <h4 class="name font-medium text-[0.95rem]">
+                Lorem, ipsum dolor.
+              </h4>
+              <h5 class="price text-[0.93rem] font-medium">Rp. 10.000</h5>
+            </div>
+            <p class="text-[0.85rem] text-[#333]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, rem!</p>
+          </div>
+        </div>
+        <div class="flex-1 right-con cursor-pointer p-6 border-[1.5px] rounded-md border-primary_orange bg-[rgba(250,129,47,0.15)]">
+          <div class="list mb-4">
+            <div class="top flex items-center justify-between mb-1.5">
+              <h4 class="name font-medium text-[0.95rem]">
+                Lorem, ipsum dolor.
+              </h4>
+              <h5 class="price text-[0.93rem] font-medium">Rp. 10.000</h5>
+            </div>
+            <p class="text-[0.85rem] text-[#333]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, rem!</p>
+          </div>
+          <div class="list mb-4">
+            <div class="top flex items-center justify-between mb-1.5">
+              <h4 class="name font-medium text-[0.95rem]">
+                Lorem, ipsum dolor.
+              </h4>
+              <h5 class="price text-[0.93rem] font-medium">Rp. 10.000</h5>
+            </div>
+            <p class="text-[0.85rem] text-[#333]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, rem!</p>
+          </div>
+          <div class="list mb-4">
+            <div class="top flex items-center justify-between mb-1.5">
+              <h4 class="name font-medium text-[0.95rem]">
+                Lorem, ipsum dolor.
+              </h4>
+              <h5 class="price text-[0.93rem] font-medium">Rp. 10.000</h5>
+            </div>
+            <p class="text-[0.85rem] text-[#333]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, rem!</p>
+          </div>
+          <div class="list mb-4">
+            <div class="top flex items-center justify-between mb-1.5">
+              <h4 class="name font-medium text-[0.95rem]">
+                Lorem, ipsum dolor.
+              </h4>
+              <h5 class="price text-[0.93rem] font-medium">Rp. 10.000</h5>
+            </div>
+            <p class="text-[0.85rem] text-[#333]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, rem!</p>
+          </div>
+          <div class="list mb-4">
+            <div class="top flex items-center justify-between mb-1.5">
+              <h4 class="name font-medium text-[0.95rem]">
+                Lorem, ipsum dolor.
+              </h4>
+              <h5 class="price text-[0.93rem] font-medium">Rp. 10.000</h5>
+            </div>
+            <p class="text-[0.85rem] text-[#333]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, rem!</p>
+          </div>
+          <div class="list">
+            <div class="top flex items-center justify-between mb-1.5">
+              <h4 class="name font-medium text-[0.95rem]">
+                Lorem, ipsum dolor.
+              </h4>
+              <h5 class="price text-[0.93rem] font-medium">Rp. 10.000</h5>
+            </div>
+            <p class="text-[0.85rem] text-[#333]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, rem!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="list-product-umkm p-[1rem_8%_4rem]">
+      <div class="header-section" data-aos="fade-up" data-aos-duration="1250">
+        <span class="badge-span">Cerita dan Pengalaman Pelanggan</span>
+        <h3 class="font-semibold text-xl mt-3 mb-0.5">
+          Cerita Usaha Lokal disekitar Kampus Amikom Purwokerto
+        </h3>
+        <p class="text-[0.93rem]">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia omnis
+          molestiae in tempora labore nesciunt totam eum unde sint deserunt.
+        </p>
+      </div>
+      <div class="swiper testimonialsProduct mt-6" data-aos="fade-up" data-aos-duration="1500">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="box-testimonials duration-300 cursor-pointer p-4 border-[1.5px] border-[#eee] rounded-md hover:border-primary_orange hover:bg-[rgba(250,129,47,0.15)]">
+          <div class="top flex items-center justify-between">
+            <i class="fa-solid fa-quote-left text-[#aaa] text-[1.1rem]"></i>
+             <span
+                class="rating-p px-2 py-1 text-[0.8rem] rounded-md border-[1.5px] border-[#e2e2e2] text-[#666]"
+              >
+                4.9 <i class="fas fa-star text-yellow-400"></i
+              ></span>
+          </div>
+          <p class="desc-test py-4 text-[0.9rem] text-[#555] text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius sunt quis ducimus accusamus quam facilis repudiandae tempore magni, accusantium expedita veniam nesciunt eos non saepe, vero, quaerat nihil officiis labore?</p>
+          <div class="author flex gap-2 items-center pt-4 border-t-[1.5px] border-[#e1e1e1]">
+            <img src="../../images/profile.png" class="w-[35px] h-[35px] rounded-full" alt="">
+            <div class="name flex flex-col gap-0">
+              <h4 class="text-[0.88rem] font-medium">Abdul Inkara</h4>
+              <span class="text-[0.76rem]">Pelanggan</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="box-testimonials duration-300 cursor-pointer p-4 border-[1.5px] border-[#eee] rounded-md hover:border-primary_orange hover:bg-[rgba(250,129,47,0.15)]">
+          <div class="top flex items-center justify-between">
+            <i class="fa-solid fa-quote-left text-[#aaa] text-[1.1rem]"></i>
+             <span
+                class="rating-p px-2 py-1 text-[0.8rem] rounded-md border-[1.5px] border-[#e2e2e2] text-[#666]"
+              >
+                4.9 <i class="fas fa-star text-yellow-400"></i
+              ></span>
+          </div>
+          <p class="desc-test py-4 text-[0.9rem] text-[#555] text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius sunt quis ducimus accusamus quam facilis repudiandae tempore magni, accusantium expedita veniam nesciunt eos non saepe, vero, quaerat nihil officiis labore?</p>
+          <div class="author flex gap-2 items-center pt-4 border-t-[1.5px] border-[#e1e1e1]">
+            <img src="../../images/profile.png" class="w-[35px] h-[35px] rounded-full" alt="">
+            <div class="name flex flex-col gap-0">
+              <h4 class="text-[0.88rem] font-medium">Abdul Inkara</h4>
+              <span class="text-[0.76rem]">Pelanggan</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="box-testimonials duration-300 cursor-pointer p-4 border-[1.5px] border-[#eee] rounded-md hover:border-primary_orange hover:bg-[rgba(250,129,47,0.15)]">
+          <div class="top flex items-center justify-between">
+            <i class="fa-solid fa-quote-left text-[#aaa] text-[1.1rem]"></i>
+             <span
+                class="rating-p px-2 py-1 text-[0.8rem] rounded-md border-[1.5px] border-[#e2e2e2] text-[#666]"
+              >
+                4.9 <i class="fas fa-star text-yellow-400"></i
+              ></span>
+          </div>
+          <p class="desc-test py-4 text-[0.9rem] text-[#555] text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius sunt quis ducimus accusamus quam facilis repudiandae tempore magni, accusantium expedita veniam nesciunt eos non saepe, vero, quaerat nihil officiis labore?</p>
+          <div class="author flex gap-2 items-center pt-4 border-t-[1.5px] border-[#e1e1e1]">
+            <img src="../../images/profile.png" class="w-[35px] h-[35px] rounded-full" alt="">
+            <div class="name flex flex-col gap-0">
+              <h4 class="text-[0.88rem] font-medium">Abdul Inkara</h4>
+              <span class="text-[0.76rem]">Pelanggan</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="box-testimonials duration-300 cursor-pointer p-4 border-[1.5px] border-[#eee] rounded-md hover:border-primary_orange hover:bg-[rgba(250,129,47,0.15)]">
+          <div class="top flex items-center justify-between">
+            <i class="fa-solid fa-quote-left text-[#aaa] text-[1.1rem]"></i>
+             <span
+                class="rating-p px-2 py-1 text-[0.8rem] rounded-md border-[1.5px] border-[#e2e2e2] text-[#666]"
+              >
+                4.9 <i class="fas fa-star text-yellow-400"></i
+              ></span>
+          </div>
+          <p class="desc-test py-4 text-[0.9rem] text-[#555] text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius sunt quis ducimus accusamus quam facilis repudiandae tempore magni, accusantium expedita veniam nesciunt eos non saepe, vero, quaerat nihil officiis labore?</p>
+          <div class="author flex gap-2 items-center pt-4 border-t-[1.5px] border-[#e1e1e1]">
+            <img src="../../images/profile.png" class="w-[35px] h-[35px] rounded-full" alt="">
+            <div class="name flex flex-col gap-0">
+              <h4 class="text-[0.88rem] font-medium">Abdul Inkara</h4>
+              <span class="text-[0.76rem]">Pelanggan</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="box-testimonials duration-300 cursor-pointer p-4 border-[1.5px] border-[#eee] rounded-md hover:border-primary_orange hover:bg-[rgba(250,129,47,0.15)]">
+          <div class="top flex items-center justify-between">
+            <i class="fa-solid fa-quote-left text-[#aaa] text-[1.1rem]"></i>
+             <span
+                class="rating-p px-2 py-1 text-[0.8rem] rounded-md border-[1.5px] border-[#e2e2e2] text-[#666]"
+              >
+                4.9 <i class="fas fa-star text-yellow-400"></i
+              ></span>
+          </div>
+          <p class="desc-test py-4 text-[0.9rem] text-[#555] text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius sunt quis ducimus accusamus quam facilis repudiandae tempore magni, accusantium expedita veniam nesciunt eos non saepe, vero, quaerat nihil officiis labore?</p>
+          <div class="author flex gap-2 items-center pt-4 border-t-[1.5px] border-[#e1e1e1]">
+            <img src="../../images/profile.png" class="w-[35px] h-[35px] rounded-full" alt="">
+            <div class="name flex flex-col gap-0">
+              <h4 class="text-[0.88rem] font-medium">Abdul Inkara</h4>
+              <span class="text-[0.76rem]">Pelanggan</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <section class="recommend-umkm p-[1rem_8%_7rem]">
+      <div class="header-section" data-aos="fade-up" data-aos-duration="1250">
+        <span class="badge-span">Cerita dan Pengalaman Pelanggan</span>
+        <h3 class="font-semibold text-xl mt-3 mb-0.5">
+          Cerita Usaha Lokal disekitar Kampus Amikom Purwokerto
+        </h3>
+        <p class="text-[0.93rem]">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia omnis
+          molestiae in tempora labore nesciunt totam eum unde sint deserunt.
+        </p>
+      </div>
+      <div class="swiper recommendUMKM mt-6" data-aos="fade-up" data-aos-duration="1500">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="box-testimonials duration-300 cursor-pointer p-4 border-[1.5px] border-[#eee] rounded-md hover:border-primary_orange hover:bg-[rgba(250,129,47,0.15)]">
+          <div class="img-con">
+            <img src="../../images/about.jpg" alt="">
+          </div>
+          <div class="flex gap-2 items-center pt-4">
+            <div class="umkm-name flex flex-col gap-0">
+              <a href="" class="text-[0.88rem] font-medium">Batagor</a>
+              <span class="text-[0.75rem]">Makanan dan Minuman</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="box-testimonials duration-300 cursor-pointer p-4 border-[1.5px] border-[#eee] rounded-md hover:border-primary_orange hover:bg-[rgba(250,129,47,0.15)]">
+          <div class="img-con">
+            <img src="../../images/about.jpg" alt="">
+          </div>
+          <div class="flex gap-2 items-center pt-4">
+            <div class="umkm-name flex flex-col gap-0">
+              <a href="" class="text-[0.88rem] font-medium">Batagor</a>
+              <span class="text-[0.75rem]">Makanan dan Minuman</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="box-testimonials duration-300 cursor-pointer p-4 border-[1.5px] border-[#eee] rounded-md hover:border-primary_orange hover:bg-[rgba(250,129,47,0.15)]">
+          <div class="img-con">
+            <img src="../../images/about.jpg" alt="">
+          </div>
+          <div class="flex gap-2 items-center pt-4">
+            <div class="umkm-name flex flex-col gap-0">
+              <a href="" class="text-[0.88rem] font-medium">Batagor</a>
+              <span class="text-[0.75rem]">Makanan dan Minuman</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="box-testimonials duration-300 cursor-pointer p-4 border-[1.5px] border-[#eee] rounded-md hover:border-primary_orange hover:bg-[rgba(250,129,47,0.15)]">
+          <div class="img-con">
+            <img src="../../images/about.jpg" alt="">
+          </div>
+          <div class="flex gap-2 items-center pt-4">
+            <div class="umkm-name flex flex-col gap-0">
+              <a href="" class="text-[0.88rem] font-medium">Batagor</a>
+              <span class="text-[0.75rem]">Makanan dan Minuman</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="box-testimonials duration-300 cursor-pointer p-4 border-[1.5px] border-[#eee] rounded-md hover:border-primary_orange hover:bg-[rgba(250,129,47,0.15)]">
+          <div class="img-con">
+            <img src="../../images/about.jpg" alt="">
+          </div>
+          <div class="flex gap-2 items-center pt-4">
+            <div class="umkm-name flex flex-col gap-0">
+              <a href="" class="text-[0.88rem] font-medium">Batagor</a>
+              <span class="text-[0.75rem]">Makanan dan Minuman</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="box-testimonials duration-300 cursor-pointer p-4 border-[1.5px] border-[#eee] rounded-md hover:border-primary_orange hover:bg-[rgba(250,129,47,0.15)]">
+          <div class="img-con">
+            <img src="../../images/about.jpg" alt="">
+          </div>
+          <div class="flex gap-2 items-center pt-4">
+            <div class="umkm-name flex flex-col gap-0">
+              <a href="" class="text-[0.88rem] font-medium">Batagor</a>
+              <span class="text-[0.75rem]">Makanan dan Minuman</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+
+
     <footer class="w-full border-t-[#ddd] border-t-[1px]">
-      <div class="row-footer flex gap-8 p-[3rem_8%]">
-        <div class="c-left flex-[1_1_40%]">
+      <div class="row-footer flex md:flex-row flex-col gap-8 p-[3rem_8%]">
+        <div class="c-left flex-[1_1_100%] md:flex-[1_1_40%]">
           <img
             class="h-[40px]"
-            src="../../images/logo/logo-temuUMKM.png"
+            src="../../../../images/logo/logo-temuUMKM.png"
             alt=""
           />
           <div class="desc mt-4 mb-6">
@@ -100,8 +549,10 @@
             </a>
           </div>
         </div>
-        <div class="c-right flex-[1_1_60%] grid grid-cols-3">
-          <div class="d-box">
+        <div
+          class="c-right flex-[1_1_100%] md:flex-[1_1_60%] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3"
+        >
+          <div class="d-box md:mb-0 mb-8">
             <h4 class="font-medium">Permalinks</h4>
             <div class="w-[20%] mb-3 bg-gradient-span h-[2px]"></div>
             <div class="list flex flex-col gap-1">
@@ -132,7 +583,7 @@
               >
             </div>
           </div>
-          <div class="d-box">
+          <div class="d-box md:mb-0 mb-8">
             <h4 class="font-medium">Data UMKM</h4>
             <div class="w-[20%] mb-3 bg-gradient-span h-[2px]"></div>
             <div class="list flex flex-col gap-1">
@@ -154,7 +605,7 @@
               >
             </div>
           </div>
-          <div class="d-box">
+          <div class="d-box md:mb-0 mb-8">
             <h4 class="font-medium">Newsletter</h4>
             <div class="w-[20%] mb-3 bg-gradient-span h-[2px]"></div>
             <div class="list flex flex-col gap-1">
@@ -180,15 +631,18 @@
         </div>
       </div>
       <div
-        class="bottom-footer bg-gradient-span text-white py-4 text-[0.88rem] px-[8%] flex justify-between items-center"
+        class="bottom-footer bg-gradient-span text-white py-4 text-[0.88rem] px-[8%] flex justify-between md:flex-row flex-col items-center md:gap-1 gap-2"
       >
-        <p>&copy; 2025 TemuUMKM - Dikembangkan oleh Tim Baru Terbit</p>
+        <p class="md:text-left text-center">
+          &copy; 2025 TemuUMKM - Dikembangkan oleh Tim Baru Terbit
+        </p>
         <p><i class="fas fa-location-dot"></i> Universitas Amikom Purwokerto</p>
       </div>
     </footer>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/SplitText.min.js"></script>
     <script src="../../assets/js/script.js"></script>
   </body>

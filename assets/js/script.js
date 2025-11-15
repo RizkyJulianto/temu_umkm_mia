@@ -122,3 +122,67 @@ document.fonts.ready.then(() => {
     delay: 1.5,
   });
 });
+
+// documentation photo UMKM
+var swiper = new Swiper(".documentPhotoUMKM", {
+  spaceBetween: 20,
+  loop: true,
+  slidesPerView: "auto",
+  autoplay: {
+    delay: 5000,
+    disableOnInteraction: false,
+  },
+  breakpoints: {
+    0: {
+      spaceBetween: 12,
+    },
+    480: {
+      spaceBetween: 15,
+    },
+    767: {
+      spaceBetween: 20,
+    },
+    992: {
+      spaceBetween: 20,
+    },
+  },
+});
+
+// testimonials swiper js
+var swiper = new Swiper(".testimonialsProduct", {
+  spaceBetween: 20,
+  a11y: false,
+  speed: 11000,
+  loop: true,
+  slidesPerView: 3,
+  autoplay: {
+    delay: 0.5,
+    disableOnInteraction: false,
+  },
+  breakpoints: {
+    0: {
+      spaceBetween: 12,
+    },
+    480: {
+      spaceBetween: 15,
+    },
+    767: {
+      spaceBetween: 20,
+    },
+    992: {
+      spaceBetween: 20,
+    },
+  },
+});
+
+// recommendUMKM swiper js
+var swiper = new Swiper(".recommendUMKM", {
+  spaceBetween: 20,
+  grabCursor: true,
+  loop: true,
+  slidesPerView: 3,
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+  },
+});
