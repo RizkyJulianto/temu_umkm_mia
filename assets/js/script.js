@@ -162,15 +162,19 @@ var swiper = new Swiper(".testimonialsProduct", {
   breakpoints: {
     0: {
       spaceBetween: 12,
+      slidesPerView: 1,
     },
     480: {
       spaceBetween: 15,
+      slidesPerView: 1,
     },
     767: {
       spaceBetween: 20,
+      slidesPerView: 2,
     },
     992: {
       spaceBetween: 20,
+      slidesPerView: 3,
     },
   },
 });
@@ -184,5 +188,19 @@ var swiper = new Swiper(".recommendUMKM", {
   autoplay: {
     delay: 3000,
     disableOnInteraction: false,
+  },
+  breakpoints: {
+    0: {
+      slidesPerView: 1,
+    },
+    480: {
+      slidesPerView: 1,
+    },
+    767: {
+      slidesPerView: 2,
+    },
+    992: {
+      slidesPerView: 3,
+    },
   },
 });

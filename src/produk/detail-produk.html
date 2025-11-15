@@ -70,8 +70,8 @@
           molestiae in tempora labore nesciunt totam eum unde sint deserunt.
         </p>
       </div>
-      <div class="doc-umkm flex gap-8 mt-8">
-        <div class="swiper documentPhotoUMKM flex-[1_1_60%]" data-aos="fade-up">
+      <div class="doc-umkm flex flex-col md:flex-row gap-8 mt-8">
+        <div class="swiper documentPhotoUMKM flex-[1_1_100%] md:flex-[1_1_60%]" data-aos="fade-up">
           <div class="swiper-wrapper">
             <div class="swiper-slide w-full h-[300px]">
               <img
@@ -97,12 +97,12 @@
           </div>
           <div class="swiper-pagination"></div>
         </div>
-        <div class="maps flex-[1_1_40%]" data-aos="fade-up">
+        <div class="maps flex-[1_1_100%] md:flex-[1_1_40%]" data-aos="fade-up">
           <h3 class="badge-umkm-loc mb-5">
             <i class="fas fa-location-dot"></i> Lokasi UMKM
           </h3>
           <iframe
-            class="w-full h-[300px] rounded-md"
+            class="w-full h-[260px] md:h-[300px] rounded-md"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63303.31316544078!2d109.24737633865725!3d-7.41455843830708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e655949fc827027%3A0x4027a76e352e420!2sKec.%20Kembaran%2C%20Kabupaten%20Banyumas%2C%20Jawa%20Tengah!5e0!3m2!1sid!2sid!4v1763127543091!5m2!1sid!2sid"
             allowfullscreen=""
             loading="lazy"
@@ -132,7 +132,7 @@
             Purwokerto Utara, Kabupaten Banyumas, Jawa Tengah 53127
           </p>
         </div>
-        <div class="information mt-1 flex gap-2.5">
+        <div class="information mt-1 flex lg:flex-nowrap flex-wrap gap-2.5">
           <span
             class="px-3 py-[0.23rem] text-[0.8rem] rounded-sm bg-gradient-span text-white"
             ><i class="fas fa-building-columns"></i> 200 Meter dari Universitas
@@ -176,8 +176,8 @@
           molestiae in tempora labore nesciunt totam eum unde sint deserunt.
         </p>
       </div>
-      <div class="row-list-umkm mt-6 flex gap-6" data-aos="fade-up" data-aos-duration="1500">
-        <div class="flex-1 left-con cursor-pointer p-6 border-[1.5px] rounded-md border-primary_orange bg-[rgba(250,129,47,0.15)]">
+      <div class="row-list-umkm mt-6 flex md:flex-row flex-col gap-6" data-aos="fade-up" data-aos-duration="1500">
+        <div class="md:flex-1 flex-[1_1_100%] left-con cursor-pointer p-6 border-[1.5px] rounded-md border-primary_orange bg-[rgba(250,129,47,0.15)]">
           <div class="list mb-4">
             <div class="top flex items-center justify-between mb-1.5">
               <h4 class="name font-medium text-[0.95rem]">
@@ -233,7 +233,7 @@
             <p class="text-[0.85rem] text-[#333]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, rem!</p>
           </div>
         </div>
-        <div class="flex-1 right-con cursor-pointer p-6 border-[1.5px] rounded-md border-primary_orange bg-[rgba(250,129,47,0.15)]">
+        <div class="md:flex-1 flex-[1_1_100%] right-con cursor-pointer p-6 border-[1.5px] rounded-md border-primary_orange bg-[rgba(250,129,47,0.15)]">
           <div class="list mb-4">
             <div class="top flex items-center justify-between mb-1.5">
               <h4 class="name font-medium text-[0.95rem]">
@@ -422,79 +422,97 @@
       <div class="swiper recommendUMKM mt-6" data-aos="fade-up" data-aos-duration="1500">
     <div class="swiper-wrapper">
       <div class="swiper-slide">
-        <div class="box-testimonials duration-300 cursor-pointer p-4 border-[1.5px] border-[#eee] rounded-md hover:border-primary_orange hover:bg-[rgba(250,129,47,0.15)]">
-          <div class="img-con">
+        <div class="flex gap-4 box-testimonials duration-300 cursor-pointer p-2 border-[1.5px] border-[#eee] rounded-md hover:border-primary_orange hover:bg-[rgba(250,129,47,0.15)]">
+          <div class="img-con flex-[1_1_45%]">
             <img src="../../images/about.jpg" alt="">
           </div>
-          <div class="flex gap-2 items-center pt-4">
+          <div class="flex flex-[1_1_55%] gap-2 items-center">
             <div class="umkm-name flex flex-col gap-0">
-              <a href="" class="text-[0.88rem] font-medium">Batagor</a>
-              <span class="text-[0.75rem]">Makanan dan Minuman</span>
+              <a href="" class="text-[0.9rem] font-medium">Batagor Niki Sari</a>
+              <span
+                class="px-1.5 mt-1 p-[0.1rem] text-[0.75rem] rounded-md bg-[rgba(112,8,231,0.15)] text-violet-700"
+                > Makanan & Minuman</span
+              >
             </div>
           </div>
         </div>
       </div>
       <div class="swiper-slide">
-        <div class="box-testimonials duration-300 cursor-pointer p-4 border-[1.5px] border-[#eee] rounded-md hover:border-primary_orange hover:bg-[rgba(250,129,47,0.15)]">
-          <div class="img-con">
+        <div class="flex gap-4 box-testimonials duration-300 cursor-pointer p-2 border-[1.5px] border-[#eee] rounded-md hover:border-primary_orange hover:bg-[rgba(250,129,47,0.15)]">
+          <div class="img-con flex-[1_1_45%]">
             <img src="../../images/about.jpg" alt="">
           </div>
-          <div class="flex gap-2 items-center pt-4">
+          <div class="flex flex-[1_1_55%] gap-2 items-center">
             <div class="umkm-name flex flex-col gap-0">
-              <a href="" class="text-[0.88rem] font-medium">Batagor</a>
-              <span class="text-[0.75rem]">Makanan dan Minuman</span>
+              <a href="" class="text-[0.9rem] font-medium">Batagor Niki Sari</a>
+              <span
+                class="px-1.5 mt-1 p-[0.1rem] text-[0.75rem] rounded-md bg-[rgba(112,8,231,0.15)] text-violet-700"
+                > Makanan & Minuman</span
+              >
             </div>
           </div>
         </div>
       </div>
       <div class="swiper-slide">
-        <div class="box-testimonials duration-300 cursor-pointer p-4 border-[1.5px] border-[#eee] rounded-md hover:border-primary_orange hover:bg-[rgba(250,129,47,0.15)]">
-          <div class="img-con">
+        <div class="flex gap-4 box-testimonials duration-300 cursor-pointer p-2 border-[1.5px] border-[#eee] rounded-md hover:border-primary_orange hover:bg-[rgba(250,129,47,0.15)]">
+          <div class="img-con flex-[1_1_45%]">
             <img src="../../images/about.jpg" alt="">
           </div>
-          <div class="flex gap-2 items-center pt-4">
+          <div class="flex flex-[1_1_55%] gap-2 items-center">
             <div class="umkm-name flex flex-col gap-0">
-              <a href="" class="text-[0.88rem] font-medium">Batagor</a>
-              <span class="text-[0.75rem]">Makanan dan Minuman</span>
+              <a href="" class="text-[0.9rem] font-medium">Batagor Niki Sari</a>
+              <span
+                class="px-1.5 mt-1 p-[0.1rem] text-[0.75rem] rounded-md bg-[rgba(112,8,231,0.15)] text-violet-700"
+                > Makanan & Minuman</span
+              >
             </div>
           </div>
         </div>
       </div>
       <div class="swiper-slide">
-        <div class="box-testimonials duration-300 cursor-pointer p-4 border-[1.5px] border-[#eee] rounded-md hover:border-primary_orange hover:bg-[rgba(250,129,47,0.15)]">
-          <div class="img-con">
+        <div class="flex gap-4 box-testimonials duration-300 cursor-pointer p-2 border-[1.5px] border-[#eee] rounded-md hover:border-primary_orange hover:bg-[rgba(250,129,47,0.15)]">
+          <div class="img-con flex-[1_1_45%]">
             <img src="../../images/about.jpg" alt="">
           </div>
-          <div class="flex gap-2 items-center pt-4">
+          <div class="flex flex-[1_1_55%] gap-2 items-center">
             <div class="umkm-name flex flex-col gap-0">
-              <a href="" class="text-[0.88rem] font-medium">Batagor</a>
-              <span class="text-[0.75rem]">Makanan dan Minuman</span>
+              <a href="" class="text-[0.9rem] font-medium">Batagor Niki Sari</a>
+              <span
+                class="px-1.5 mt-1 p-[0.1rem] text-[0.75rem] rounded-md bg-[rgba(112,8,231,0.15)] text-violet-700"
+                > Makanan & Minuman</span
+              >
             </div>
           </div>
         </div>
       </div>
       <div class="swiper-slide">
-        <div class="box-testimonials duration-300 cursor-pointer p-4 border-[1.5px] border-[#eee] rounded-md hover:border-primary_orange hover:bg-[rgba(250,129,47,0.15)]">
-          <div class="img-con">
+        <div class="flex gap-4 box-testimonials duration-300 cursor-pointer p-2 border-[1.5px] border-[#eee] rounded-md hover:border-primary_orange hover:bg-[rgba(250,129,47,0.15)]">
+          <div class="img-con flex-[1_1_45%]">
             <img src="../../images/about.jpg" alt="">
           </div>
-          <div class="flex gap-2 items-center pt-4">
+          <div class="flex flex-[1_1_55%] gap-2 items-center">
             <div class="umkm-name flex flex-col gap-0">
-              <a href="" class="text-[0.88rem] font-medium">Batagor</a>
-              <span class="text-[0.75rem]">Makanan dan Minuman</span>
+              <a href="" class="text-[0.9rem] font-medium">Batagor Niki Sari</a>
+              <span
+                class="px-1.5 mt-1 p-[0.1rem] text-[0.75rem] rounded-md bg-[rgba(112,8,231,0.15)] text-violet-700"
+                > Makanan & Minuman</span
+              >
             </div>
           </div>
         </div>
       </div>
       <div class="swiper-slide">
-        <div class="box-testimonials duration-300 cursor-pointer p-4 border-[1.5px] border-[#eee] rounded-md hover:border-primary_orange hover:bg-[rgba(250,129,47,0.15)]">
-          <div class="img-con">
+        <div class="flex gap-4 box-testimonials duration-300 cursor-pointer p-2 border-[1.5px] border-[#eee] rounded-md hover:border-primary_orange hover:bg-[rgba(250,129,47,0.15)]">
+          <div class="img-con flex-[1_1_45%]">
             <img src="../../images/about.jpg" alt="">
           </div>
-          <div class="flex gap-2 items-center pt-4">
+          <div class="flex flex-[1_1_55%] gap-2 items-center">
             <div class="umkm-name flex flex-col gap-0">
-              <a href="" class="text-[0.88rem] font-medium">Batagor</a>
-              <span class="text-[0.75rem]">Makanan dan Minuman</span>
+              <a href="" class="text-[0.9rem] font-medium">Batagor Niki Sari</a>
+              <span
+                class="px-1.5 mt-1 p-[0.1rem] text-[0.75rem] rounded-md bg-[rgba(112,8,231,0.15)] text-violet-700"
+                > Makanan & Minuman</span
+              >
             </div>
           </div>
         </div>
